@@ -1,0 +1,53 @@
+.nav_items{
+    cursor: pointer;
+    
+   
+}
+
+
+.nav_div{
+    padding: 0px !important;
+}
+.nav-link{
+    color: white !important;
+}
+.nav_main{
+    background-color: #020102;
+    position: relative;
+    top: -10px;
+    width: 600px;
+    height: 70px;
+    clip-path: polygon(0 0, 100% 0, 93% 100%, 7% 100%);
+}
+.nav_main li{
+    margin-top: 15px !important;
+    margin-left: 35px;
+    padding-bottom: 45px !important;
+    transition: .2s;
+    
+}
+.nav_main li:hover{
+    border-bottom: 3px solid white;
+    
+    
+}
+.home_nav_item{
+    
+    margin-left: 65px !important;
+}
+/* .home_link{
+} */
+.nav_main a{
+    font-size: 14px;
+    color: rgb(162, 162, 162);
+    transform: .1s;
+    
+}
+.nav_main a:hover{
+    color: white;
+}
+
+
+
+
+

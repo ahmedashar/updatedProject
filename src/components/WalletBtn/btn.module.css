@@ -1,0 +1,45 @@
+.btn_container{
+    /* border: 1px solid white; */
+    width: 218px;
+    height: 37px;
+    background-color: #686B8F !important;
+}
+.Wallet_btn{
+    /* padding: 5px 0 5px 20px; */
+    padding: 5px 30px;
+    color: white;
+    border: none;
+    background-color: #EDE8FC;
+    background-color: #686B8F;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.42px;
+text-transform: uppercase;
+}
+.child_btn{
+    padding: 5px 15px;
+    border: none;
+    margin: 1px;
+    margin-top: 1.5px;
+}
+
+@media (max-width: 500.98px){
+    .btn_container{
+        /* border: 1px solid white; */
+        width: 155px;
+       
+    }
+    .Wallet_btn{
+        /* padding: 5px 0 5px 20px; */
+        padding: 5px 12px;
+        color: white;    
+        font-size: 12px;
+    }
+
+    .child_btn{
+        padding: 5px 10px;
+    }
+}

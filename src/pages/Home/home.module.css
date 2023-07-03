@@ -1,0 +1,144 @@
+.home_wrapper {
+    height: 100vh;
+    width: 100%;
+    /* background-color: red !important; */
+
+    background: #050508;
+   background-color: black;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-image: url('../../assets/Main.png');
+    background-size: cover;
+}
+
+.home_container{
+    position: relative;
+    height: 85vh;
+}
+.hero_bottom_section{
+    position: absolute;
+    bottom: 50px;
+}
+.main_para{
+    color: #FFF;
+font-size: 90px;
+font-family: Chakra Petch;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -2px;
+
+}
+.main_para2{
+    /* position: relative;
+    left: 60px; */
+    padding-left: 55px;
+}
+
+.social_icons{
+    width: 37px;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 0.1px solid rgb(255, 255, 255, 0.6);
+    /* height: 15px; */
+}
+
+/* 2nd row */
+
+.para1{
+    color: rgba(255, 255, 255, 0.70);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.16px;
+}
+.Rpara1{
+    color: rgba(255, 255, 255, 0.70);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.16px;
+display: none;
+}
+
+.para2{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.16px;
+}
+
+
+
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .para2{
+        display: none;
+    }
+    .Rpara1{
+        display: block;
+    }
+    .main_para2{
+        
+        padding-left: 0px;
+    }
+    .btn_div{
+        position: relative;
+        left: -100px;
+        width: 450px;
+        /* border: 1px solid white; */
+    }
+   
+ }
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .welcome_status{
+        padding: 0px 0px !important;
+    }
+    .para1_div{
+        padding: 0px 0px !important;
+    }
+  }
+ @media (max-width: 500px){
+    .btn_div{
+        position: relative;
+        left: -50px;
+        width: 330px;
+        /* border: 1px solid white; */
+    }
+ }
+ @media (max-width: 0px){
+    .btn_div{
+        position: relative;
+        left: -50px;
+        width: 350px;
+        /* border: 1px solid white; */
+    }
+ }
+ @media (max-width: 320px){
+    .btn_div{
+        position: relative;
+        left: -100px;
+        width: 350px;
+        /* border: 1px solid white; */
+    }
+ }
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
+/* // XX-Large devices (larger desktops) */
+/* // No media query since the xxl breakpoint has no upper bound on its width */
+

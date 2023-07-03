@@ -1,0 +1,25 @@
+.explore_btn{
+    margin-left: 10px;
+    width: 218px;
+    height: 37px;
+    background-color: transparent;
+
+    border: none;
+    border: 1px solid rgb(255, 255, 255, 0.35);
+    color: white;
+    font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.42px;
+text-transform: uppercase;
+}
+
+@media (max-width: 500.98px){
+    .explore_btn{
+        margin-left: 10px;
+        width: 155px;
+        font-size: 12px;
+    }
+    
+}
